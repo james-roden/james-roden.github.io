@@ -1,0 +1,25 @@
+body{
+    background: rgb(214, 239, 249);
+}
+
+.header{
+    background-image: url("imgs/header.jpg");
+    width: 700px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    position: relative;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.gh{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
