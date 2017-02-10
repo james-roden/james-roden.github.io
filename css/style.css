@@ -1,11 +1,11 @@
-body{
+﻿body{
     background: rgb(214, 239, 249);
 }
 
 .header{
-    background-image: url("imgs/header.jpg");
-    width: 700px;
-    height: 250px;
+    background-image: url("../imgs/header.jpg");
+    width: 1000px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
 }
