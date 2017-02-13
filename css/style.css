@@ -9,7 +9,7 @@ body{
 .header{
     background-image: url('../imgs/header.jpg');
     width: 1000px;
-    height: 200px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -21,7 +21,7 @@ body{
 
 .content{
 	position:relative;
-	top: 210px;
+	top: 160px;
 	width: 980px;
 	margin-left: auto;
     margin-right: auto;
@@ -35,17 +35,16 @@ h1{
     position: relative;
     color: white;
     font-family: 'Raleway', sans-serif;
+    display: inline-block;
     margin-left: 10px;
-    margin-top: 10px;
-    display: inline;
+    margin-top: 5px;
 }
 
 
 .logo{
-	height: 60px;
-	width: 60px;
-	margin-bottom: 2px;
-	margin-top: 5px;
+	height: 40px;
+	width: 40px;	
+	margin-top: 7.5px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -54,16 +53,11 @@ h1{
 	opacity: 0.3;    
 }
 
-
 .container{
 	float: right;
-	height: 200px;
+	height: 150px;
 	width: 70px;
 	background-color: rgba(255, 255, 255, 0.5);	
-}
-
-#placeholder{
-	height: 400px;
 }
 
 footer {
@@ -79,7 +73,5 @@ footer {
   text-align: center;  
   font-size:small;
   line-height: 40px;
-  border-radius: 15px;
-  
+  border-radius: 15px; 
 }
-
