@@ -8,8 +8,8 @@ body{
 
 .header{
     background-image: url('../imgs/header.jpg');
-    width: 1000px;
-    height: 150px;
+    width: 998px;
+    height: 148px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -17,17 +17,21 @@ body{
     right: 0;
     left: 0;
     z-index: 1000;
+    border: 1px black solid;    
 }
 
 .content{
 	position:relative;
 	top: 160px;
-	width: 980px;
+	width: 978px;
+	height: 128px;
 	margin-left: auto;
     margin-right: auto;
+    margin-top: 12px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
     padding: 10px;
+    border: 1px black solid;
 	
 }
 
@@ -53,12 +57,27 @@ h1{
 	opacity: 0.3;    
 }
 
+
 .container{
 	float: right;
 	height: 150px;
 	width: 70px;
 	background-color: rgba(255, 255, 255, 0.5);	
 }
+
+.thumbnail{
+	float: right;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 130px;
+	width: 130px;
+	border-radius: 15px;
+	
+}
+
+img[alt=Thumbnail] { 
+    border-radius: 15px;
+}
+
 
 footer {
   position: fixed;
@@ -74,4 +93,9 @@ footer {
   font-size:small;
   line-height: 40px;
   border-radius: 15px; 
+}
+
+h4{
+	
+	margin: 4px 4px 4px 0px;
 }
