@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  console.log("It's working, mofo");
   $('.bg1').hide();
   $('.bg1').fadeIn(3000);
 })
