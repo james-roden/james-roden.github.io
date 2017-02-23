@@ -1,20 +1,8 @@
 $(document).ready(function(){
-  console.log("It's working, mofo");
-  $('.bg1').hide();
-  $('.bg1').fadeIn(3000);
-})
-
-
-// function main(){
-//   $('.skillset').hide();
-//   $('.skillset').fadeIn(1000);
-//   $('.projects').hide();
-//   $('.projects-button').on('click', function() {
-//     $(this).toggleClass('active');
-//     $(this).text('Projects Views');
-//     $(this).next().slideToggle(400);
-//
-//
-//   }
-//                           );
-// }
+  $('.page1').hide();
+  $('.page1').fadeIn(1000);
+  $('.scroll-button').click(function(){
+    $('html, body').animate({
+      scrollTop: $('.page2').offset().top
+    }, 1000);
+  })})
