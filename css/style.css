@@ -6,10 +6,8 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
-.caption h3{
-  margin: 10px 0px;
-}
-
+/* Splash page slideshow */
+/*---------------------------------------------------------------------------*/
 .page1-slideshow span{
     width: 100%;
     height: 100%;
@@ -24,26 +22,32 @@ body{
 }
 
 #img1{
-    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)), url(../imgs/nasa1.jpg);
+    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../imgs/nasa1.jpg);
 }
 #img2 {
-    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)), url(../imgs/nasa2.jpg);
+    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../imgs/nasa2.jpg);
     animation-delay: 6s;
 }
 #img3 {
-    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)), url(../imgs/andrew-neel.jpg);
+    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../imgs/andrew-neel.jpg);
     animation-delay: 12s;
 }
 #img4 {
-    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)), url(../imgs/chuttersnap.jpg);
+    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../imgs/chuttersnap.jpg);
     animation-delay: 18s;
 }
 #img5 {
-    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)), url(../imgs/drew-coffman.jpg);
+    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../imgs/drew-coffman.jpg);
     animation-delay: 24s;
 }
 #img6 {
-    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)), url(../imgs/ruthie.jpg);
+    background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../imgs/ruthie.jpg);
     animation-delay: 30s;
 }
 
@@ -54,12 +58,16 @@ body{
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
+/*---------------------------------------------------------------------------*/
 
+/* Page 1: 100% Vertical height of display*/
 .page1{
     height: 100vh;
     position: relative;
   }
 
+/* Page 2: Map background, 100% vertical height of display. Padding to allow for
+navigation bar */
 .page2{
     background-image: url('../imgs/map-bk2.png');
     background-size: cover;
@@ -68,14 +76,62 @@ body{
     position: relative;
   }
 
-.thumbnail{
-  height: 100%;
-}
-
-.thumbnail:hover{
+/* Repository shortcuts */
+/*---------------------------------------------------------------------------*/
+.repo{
+  border-radius: 20px;
   border: solid black 2px;
+  margin-bottom: 20px;
+  height: 200px;
+  background-size: cover;
+  opacity: 1;
 }
 
+.repo-title{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: auto;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.repo:hover {
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  opacity: 0.9;
+  box-shadow: inset 0 0 0 5px rgb(10, 117, 145);
+}
+
+#graticule{
+  background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+  url(https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool/blob/master/imgs/Map_Grat_WGS84.png?raw=true);
+}
+
+#foobar{
+  background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+  url(https://github.com/GISJMR/Google_Foobar/blob/master/Images/Foobar_Status_Sep16.PNG?raw=true);
+}
+
+#rgb2z{
+  background-color: black;
+}
+
+#swath{
+  background-color: black;
+}
+/*---------------------------------------------------------------------------*/
+
+/* Bootstrap Navbar */
+/*---------------------------------------------------------------------------*/
 .navbar{
   background-color: black;
   border: 0;
@@ -109,7 +165,9 @@ body{
 .fa:hover{
   color: rgb(10, 117, 145);
 }
+/*---------------------------------------------------------------------------*/
 
+/* Footer, copyright etc. */
 #footer{
   padding-top: 3px;
   position: absolute;
@@ -120,6 +178,8 @@ body{
   text-align: center;
 }
 
+/* Scroll button */
+/*---------------------------------------------------------------------------*/
 #scroll-footer{
   position: absolute;
   bottom: 80px;
@@ -152,3 +212,4 @@ body{
     transform: translateY(-10px);
   }
 }
+/*---------------------------------------------------------------------------*/
