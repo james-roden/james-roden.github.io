@@ -71,9 +71,10 @@ navigation bar */
 .page2{
     background-image: url('../imgs/map-bk2.png');
     background-size: cover;
-    height: 100vh;
+    height: 1000px;
     padding-top: 100px;
     position: relative;
+    background-repeat: repeat-y;
   }
 
 /* Repository shortcuts */
@@ -102,11 +103,11 @@ navigation bar */
 }
 
 .repo:hover {
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-  -moz-transition: all 1s ease; /* Firefox */
-  -ms-transition: all 1s ease; /* IE 9 */
-  -o-transition: all 1s ease; /* Opera */
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  -moz-transition: all 0.5s ease; /* Firefox */
+  -ms-transition: all 0.5s ease; /* IE 9 */
+  -o-transition: all 0.5s ease; /* Opera */
+  transition: all 0.5s ease;
   opacity: 0.9;
   box-shadow: inset 0 0 0 5px rgb(10, 117, 145);
 }
@@ -168,12 +169,11 @@ navigation bar */
 /*---------------------------------------------------------------------------*/
 
 /* Footer, copyright etc. */
-#footer{
-  padding-top: 3px;
+.footer {
+  bottom: 0;
   position: absolute;
-  bottom: 0px;
-  background-color: white;
   height: 30px;
+  background: white;
   width: 100%;
   text-align: center;
 }
