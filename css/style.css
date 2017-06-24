@@ -4,6 +4,10 @@ html::-webkit-scrollbar {
 
 body{
   font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
 }
 
 /* Splash page slideshow */
@@ -60,19 +64,59 @@ body{
 }
 /*---------------------------------------------------------------------------*/
 
+.header{
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+hr{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  width: 30%;
+  border-color: black;
+}
+
+.row{
+  margin-bottom: 30px;
+}
+
+.cvhouse{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  border: solid 1px grey;
+}
+
 /* Page 1: 100% Vertical height of display*/
 .page1{
     height: 100vh;
     position: relative;
   }
 
-/* Page 2: Map background, 100% vertical height of display. Padding to allow for
-navigation bar */
+/* Page 2: */
 .page2{
+    background-color: white;
+    padding: 100px 0 50px;
+    position: relative;
+    
+}
+
+/* Page 3: Map background */
+.page3{
     background-image: url('../imgs/map-bk2.png');
     background-size: cover;
-    height: 1000px;
-    padding-top: 100px;
+    height: 100%;
+    padding-top: 50px;
     position: relative;
     background-repeat: repeat-y;
   }
@@ -172,10 +216,11 @@ navigation bar */
 .footer {
   bottom: 0;
   position: absolute;
-  height: 30px;
+  height: 20px;
   background: white;
   width: 100%;
   text-align: center;
+  font-size: 12px;
 }
 
 /* Scroll button */
@@ -213,3 +258,6 @@ navigation bar */
   }
 }
 /*---------------------------------------------------------------------------*/
+
+
+/* TEST */
