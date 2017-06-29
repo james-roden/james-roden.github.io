@@ -14,7 +14,38 @@
 </head>
 
 <body>
-  <!--First Page-->
+  <!-- Navbar from Bootstrap-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://gisjmr.github.io/">GIS • JMR</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://github.com/GISJMR/"><i class="fa fa-github nav-li"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/james-matthew-roden-9bb99041/"><i class="fa fa-linkedin nav-li"></i></a></li>
+          <li><a href="mailto:gisjmr@gmail.com"><i class="fa fa-envelope-o nav-li"></i></a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CARTOGRAPHY</a></li>
+              <li><a href="#">PROJECTS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Splash Page-->
   <section class="page1">
     <div class="intro">
       <div class="name">James Matthew Roden</div>
@@ -30,152 +61,129 @@
       <span id="img6"></span>
     </div>
 
-    <!-- Navbar from Bootstrap-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="https://gisjmr.github.io/">GIS • JMR</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://github.com/GISJMR/"><i class="fa fa-github nav-li"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/james-matthew-roden-9bb99041/"><i class="fa fa-linkedin nav-li"></i></a></li>
-            <li><a href="mailto:gisjmr@gmail.com"><i class="fa fa-envelope-o nav-li"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
     <div id="scroll-footer">
       <div class="scroll-button"><i class="fa fa-angle-double-down"></i></div>
     </div>
+  </section>
 
-    </section>
-    <!-- About section -->
-    <section class="page2">
-      <div class="container">
-        <div class="header">- ABOUT -<hr></div>
-        <div class="row">
-          <div class="col-lg-12">
-            Hello, I'm James, a GIS Specialist and developer based in London, U.K.<br>
-            This is my personal portfolio, visual playground and testing ground.<br>
-            Some of my Github Repository projects are below.<br>
-            Diolch // Thanks.
-          </div>
+  <!-- About section -->
+  <section class="about">
+    <div class="container">
+      <div class="header">- ABOUT -<hr></div>
+      <div class="row">
+        <div class="col-lg-12 test">
+          Hello, I'm James, a GIS Specialist and developer based in London, U.K.<br>
+          This is my personal portfolio, visual playground and testing ground.<br>
+          Some of my Github Repository projects are below.<br>
+          Diolch // Thanks.
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="thumbnail">
-              <img src="imgs/doglolz.jpg" alt="...">
-            </div>
-
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="thumbnail">
+            <img src="imgs/doglolz.jpg" alt="...">
           </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="thumbnail">
-              <img src="imgs/doglolz.jpg" alt="...">
-            </div>
 
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="thumbnail">
+            <img src="imgs/doglolz.jpg" alt="...">
           </div>
-          <div class="col-xs-12 col-md-6 col-lg-4">
-            <div class="thumbnail">
-              <img src="imgs/doglolz.jpg" alt="...">
-            </div>
+
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="thumbnail">
+            <img src="imgs/doglolz.jpg" alt="...">
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="cartography">
-      <div class="container">
-        <div class="header">- CARTOGRAPHY -<hr></div>
-        <div class="col-lg-12">
-            <a href="#">
-              <div class="maps"></div>
-              <div class="repo-title maps-title ">Placeholder</div>
+  <!-- Cartography section -->
+  <section class="cartography">
+    <div class="container">
+      <div class="header">- CARTOGRAPHY -<hr></div>
+      <div class="col-lg-12">
+          <a href="#">
+            <div class="maps"></div>
+            <div class="repo-title maps-title ">Placeholder</div>
+          </a>
+      </div>
+      <div class="col-lg-12">
+          <a href="#">
+            <div class="maps"></div>
+            <div class="repo-title maps-title ">Placeholder</div>
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Github section -->
+  <section class="github">
+    <div class="container">
+      <div class="row">
+      <div class="header">- PROJECTS -<hr></div>
+      <div class="row">
+        <div class="col-lg-12"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="https://github.com/GISJMR/Google_Foobar">
+              <div id="foobar" class="repo">
+                <div class="repo-desc">Completed some code for Google, didn't I?</div>
+              </div>
+              <div class="repo-title">Google Foobar</div>
             </a>
         </div>
-        <div class="col-lg-12">
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool">
+              <div id="graticule" class="repo"></div>
+              <div class="repo-title">ArcGIS Create Graticule</div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-6 col-lg-3">
             <a href="#">
-              <div class="maps"></div>
-              <div class="repo-title maps-title ">Placeholder</div>
+              <div id="rgb2z" class="repo"></div>
+              <div class="repo-title">Placeholder</div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="#">
+              <div id="rgb2z" class="repo"></div>
+              <div class="repo-title">Placeholder</div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="#">
+              <div id="rgb2z" class="repo"></div>
+              <div class="repo-title">Placeholder</div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="#">
+              <div id="rgb2z" class="repo"></div>
+              <div class="repo-title">Placeholder</div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="#">
+              <div id="rgb2z" class="repo"></div>
+              <div class="repo-title">Placeholder</div>
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-6 col-lg-3">
+            <a href="#">
+              <div id="rgb2z" class="repo"></div>
+              <div class="repo-title">Placeholder</div>
             </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--Github Repos-->
-    <section class="github_repos">
-      <div class="container">
-        <div class="row">
-        <div class="header">- PROJECTS -<hr></div>
-        <div class="row">
-          <div class="col-lg-12"></div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="https://github.com/GISJMR/Google_Foobar">
-                <div id="foobar" class="repo"></div>
-                <div class="repo-title">Google Foobar</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool">
-                <div id="graticule" class="repo"></div>
-                <div class="repo-title">ArcGIS Create Graticule</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-          <div class="col-xs-6 col-md-6 col-lg-3">
-              <a href="#">
-                <div id="rgb2z" class="repo"></div>
-                <div class="repo-title">Placeholder</div>
-              </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class='footer'>Copyright © 2017 - James M Roden</footer>
+  <!-- Footer -->
+  <footer class='footer'>Copyright © 2017 - James M Roden</footer>
 
 </body>
 </html>

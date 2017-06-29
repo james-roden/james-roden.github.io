@@ -31,9 +31,14 @@ body{
     animation: imageAnimation 36s linear infinite 0s;
 }
 
+.page1{
+    height: 100vh;
+    position: relative;
+  }
+
 #img1{
     background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
-    url(../imgs/nasa1.jpg);
+    url(../imgs/andrew-neel.jpg);
 }
 #img2 {
     background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
@@ -42,7 +47,7 @@ body{
 }
 #img3 {
     background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
-    url(../imgs/andrew-neel.jpg);
+    url(../imgs/ruthie.jpg);
     animation-delay: 12s;
 }
 #img4 {
@@ -57,7 +62,7 @@ body{
 }
 #img6 {
     background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
-    url(../imgs/ruthie.jpg);
+    url(../imgs/nasa1.jpg);
     animation-delay: 30s;
 }
 
@@ -68,62 +73,8 @@ body{
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
-/*---------------------------------------------------------------------------*/
 
-.header{
-  height: 40px;
-  position: relative;
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 1.444em;
-  font-weight: bold;
-}
-
-hr{
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: double;
-  width: 30%;
-  border-color: black;
-}
-
-.row{
-  margin-bottom: 30px;
-}
-
-/* Page 1: 100% Vertical height of display*/
-.page1{
-    height: 100vh;
-    position: relative;
-  }
-
-/* Page 2: */
-.page2{
-    background-color: white;
-    padding: 100px 0 50px;
-    position: relative;
-}
-
-/* Cartography section */
-.cartography{
-  background-image: url('../imgs/map.png');
-  padding: 50px 0 50px;
-  position: relative;
-}
-
-/* Page 3: Map background */
-.github_repos{
-  background-image: url('../imgs/code.jpg');
-    background-size: cover;
-    height: 100%;
-    padding-top: 50px;
-    position: relative;
-    background-repeat: repeat-y;
-  }
-
+/* Intro animation. Name and skills  */
 .intro{
   position: absolute;
   top: 30%;
@@ -151,127 +102,6 @@ hr{
   text-shadow: 1px 1px black;
 }
 
-/* Cartography Shortcuts */
-
-.maps{
-  width: 100%;
-  height: 400px;
-  background-color: white;
-  border: solid black 2px;
-  border-radius: 20px;
-  margin-bottom: 30px;
-}
-
-
-
-/* Repository shortcuts */
-/*---------------------------------------------------------------------------*/
-.repo{
-  border-radius: 20px;
-  border: solid black 2px;
-  margin-bottom: 20px;
-  height: 200px;
-  background-size: cover;
-  opacity: 1;
-}
-
-.repo-title{
-  position: absolute;
-  top: 20%;
-  left: 0;
-  right: 0;
-  height: 50px;
-  width: auto;
-  text-align: center;
-  font-size: 18px;
-  color: white;
-  font-weight: bold;
-  pointer-events: none;
-}
-
-/*temp*/
-.maps-title{
-  color: black;
-}
-
-.repo:hover {
-  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
-  -moz-transition: all 0.5s ease; /* Firefox */
-  -ms-transition: all 0.5s ease; /* IE 9 */
-  -o-transition: all 0.5s ease; /* Opera */
-  transition: all 0.5s ease;
-  opacity: 0.9;
-  box-shadow: inset 0 0 0 5px rgb(10, 117, 145);
-}
-
-#graticule{
-  background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
-  url(https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool/blob/master/imgs/Map_Grat_WGS84.png?raw=true);
-}
-
-#foobar{
-  background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
-  url(https://github.com/GISJMR/Google_Foobar/blob/master/Images/Foobar_Status_Sep16.PNG?raw=true);
-}
-
-#rgb2z{
-  background-color: grey;
-}
-
-/*---------------------------------------------------------------------------*/
-
-/* Bootstrap Navbar */
-/*---------------------------------------------------------------------------*/
-.navbar{
-  background-color: black;
-  border: 0;
-  display: none;
-
-}
-
-.navbar-inverse .navbar-brand {
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-  color: rgb(10, 117, 145);
-}
-
-.navbar-inverse .navbar-toggle:hover {
-  background-color: rgb(10, 117, 145);
-}
-
-.fa{
-  color: white;
-  font-size: 2.5rem;
-}
-
-.viewon{
-  color: black;
-  font-size: 2rem;
-}
-
-.fa:hover{
-  color: rgb(10, 117, 145);
-}
-/*---------------------------------------------------------------------------*/
-
-/* Footer, copyright etc. */
-.footer {
-  bottom: 0;
-  position: absolute;
-  height: 20px;
-  background: white;
-  width: 100%;
-  text-align: center;
-  font-size: 12px;
-}
-
-/* Scroll button */
-/*---------------------------------------------------------------------------*/
 #scroll-footer{
   position: absolute;
   bottom: 80px;
@@ -304,6 +134,178 @@ hr{
     transform: translateY(-10px);
   }
 }
+
+/*---------------------------------------------------------------------------*/
+.header{
+  height: 40px;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.444em;
+  font-weight: bold;
+}
+
+hr{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: double;
+  width: 30%;
+  border-color: black;
+}
+
+.row{
+  margin-bottom: 30px;
+}
+
+/* About section */
+.about{
+    padding: 100px 0 50px;
+    position: relative;
+    background-color: rgb(230, 255, 255);
+}
+
+/* Cartography section */
+.cartography{
+  background-color: rgb(230,255,242);
+  padding: 50px 0 50px;
+  position: relative;
+}
+
+.maps{
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 0px;
+  margin-bottom: 30px;
+}
+
+/* Github section */
+.github{
+  background-color: rgb(230, 255, 230);
+  background-size: cover;
+  height: 100%;
+  padding-top: 50px;
+  position: relative;
+  background-repeat: repeat-y;
+  }
+
+.repo{
+  border-radius: 0px;
+  border: solid black 2px;
+  margin-bottom: 20px;
+  height: 200px;
+  background-size: cover;
+  opacity: 1;
+}
+
+.repo-title{
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.repo-desc{
+  position: relative;
+  top: 35%;
+  padding: 0 20px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+  display: none;
+}
+
+.repo:hover {
+  -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+  -moz-transition: all 0.5s ease; /* Firefox */
+  -ms-transition: all 0.5s ease; /* IE 9 */
+  -o-transition: all 0.5s ease; /* Opera */
+  transition: all 0.5s ease;
+  opacity: 0.9;
+  box-shadow: inset 0 0 0 5px rgb(10, 117, 145);
+}
+
+#graticule{
+  background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+  url(https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool/blob/master/imgs/Map_Grat_WGS84.png?raw=true);
+}
+
+#foobar{
+  background-image: linear-gradient(rgba(147, 141, 141, 0.3), rgba(0, 0, 0, 0.7)),
+  url(https://github.com/GISJMR/Google_Foobar/blob/master/Images/Foobar_Status_Sep16.PNG?raw=true);
+}
+
+/*---------------------------------------------------------------------------*/
+/* Bootstrap Navbar */
+/*---------------------------------------------------------------------------*/
+
+.navbar{
+  background-color: black;
+  border: 0;
+  display: none;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: rgb(10, 117, 145);
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: rgb(10, 117, 145);
+}
+
+.fa{
+  color: white;
+  font-size: 2.5rem;
+}
+
+.fa:hover{
+  color: rgb(10, 117, 145);
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+
+.dropdown-menu>li>a{
+  color: white;
+  font-size: 20px;
+}
+
+/*---------------------------------------------------------------------------*/
+
+/* Footer, copyright etc. */
+.footer {
+  bottom: 0;
+  position: absolute;
+  height: 20px;
+  background: white;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* Scroll button */
+/*---------------------------------------------------------------------------*/
+
 /*---------------------------------------------------------------------------*/
 
 

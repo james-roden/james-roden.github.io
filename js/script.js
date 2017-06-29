@@ -3,14 +3,12 @@ $(document).ready(function(){
   $('.skills').animate({left: 0}, 2000);
   $('.scroll-button').click(function(){
     $('html, body').animate({
-      scrollTop: $('.page2').offset().top}, 1000);
+      scrollTop: $('.about').offset().top}, 1000);
     })
   });
 
-
-
 $(window).scroll(function() {
-    var aboutHeight = $(".page2").outerHeight()
+    var aboutHeight = $(".about").outerHeight()
     if ($(this).scrollTop()>aboutHeight)
      {
       $('.navbar').fadeIn();
