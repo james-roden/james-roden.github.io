@@ -229,10 +229,12 @@ hr{
   height: 50px;
   width: auto;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   font-weight: bold;
   pointer-events: none;
+  font-family: "Slim Joe", sans-serif;
+  text-shadow: 1px 1px black;
 }
 
 .repo-desc{
@@ -302,6 +304,8 @@ hr{
 
 .dropdown-menu{
   background-color: black;
+  top: 50px;
+  right: 10px;
 }
 
 .dropdown-menu>li>a{
@@ -322,6 +326,7 @@ hr{
   text-align: center;
   font-size: 12px;
   color: black;
+  font-family: "Ralewat", sans-serif;
 }
 
 /* Scroll button */

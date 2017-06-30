@@ -12,12 +12,12 @@ $(document).ready(function(){
 
   $(".nav-cartography").click(function() {
     $('html,body').animate({
-      scrollTop: $(".cartography").offset().top}, 'slow');
+      scrollTop: $(".cartography").offset().top - 50}, 'slow');
   });
 
   $(".nav-projects").click(function() {
     $('html,body').animate({
-      scrollTop: $(".github").offset().top}, 'slow');
+      scrollTop: $(".github").offset().top - 50}, 'slow');
   });
   });
 
