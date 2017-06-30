@@ -4,16 +4,21 @@
   src: url(../fonts/SlimJoe.woff) format("woff");
 }
 
+@font-face {
+  font-family: Proxima Nova;
+  src: url(../fonts/ProximaNova.woff) format("woff");
+}
+
 html::-webkit-scrollbar {
     display: none;
 }
 
 body{
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 21px;
+  text-align: justify;
   position: relative;
+  color: white;
 }
 
 /* Splash page slideshow */
@@ -74,12 +79,20 @@ body{
     100% { opacity: 0 }
 }
 
+#my-content{
+  background-image: url(../imgs/topo.png);
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+}
+
 /* Intro animation. Name and skills  */
 .intro{
   position: absolute;
   top: 30%;
   width: 100%;
   z-index: 1;
+  text-align: center;
 }
 
 .name{
@@ -141,8 +154,16 @@ body{
   position: relative;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 1.444em;
   font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+.bodytext{
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 hr{
@@ -153,7 +174,7 @@ hr{
   margin-right: auto;
   border-style: double;
   width: 30%;
-  border-color: black;
+  border-color: white;
 }
 
 .row{
@@ -164,12 +185,11 @@ hr{
 .about{
     padding: 100px 0 50px;
     position: relative;
-    background-color: rgb(230, 255, 255);
 }
 
 /* Cartography section */
 .cartography{
-  background-color: rgb(230,255,242);
+
   padding: 50px 0 50px;
   position: relative;
 }
@@ -185,7 +205,7 @@ hr{
 
 /* Github section */
 .github{
-  background-color: rgb(230, 255, 230);
+
   background-size: cover;
   height: 100%;
   padding-top: 50px;
@@ -301,6 +321,7 @@ hr{
   width: 100%;
   text-align: center;
   font-size: 12px;
+  color: black;
 }
 
 /* Scroll button */
