@@ -4,18 +4,13 @@
   src: url(../fonts/SlimJoe.woff) format("woff");
 }
 
-@font-face {
-  font-family: Proxima Nova;
-  src: url(../fonts/ProximaNova.woff) format("woff");
-}
-
 html::-webkit-scrollbar {
     display: none;
 }
 
 body{
-  font-family: "Proxima Nova", sans-serif;
-  font-size: 21px;
+  font-family: 'Playfair Display', serif;
+  font-size: 19px;
   text-align: justify;
   position: relative;
   color: white;
@@ -154,8 +149,7 @@ body{
   position: relative;
   margin-bottom: 20px;
   text-align: center;
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Slim Joe", sans-serif;
   font-size: 30px;
 }
 
@@ -185,6 +179,11 @@ hr{
 .about{
     padding: 100px 0 50px;
     position: relative;
+}
+
+.thumbnail{
+  padding: 1px;
+  border-radius: 0;
 }
 
 /* Cartography section */
@@ -308,6 +307,7 @@ hr{
 .dropdown-menu>li>a{
   color: white;
   font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*---------------------------------------------------------------------------*/
