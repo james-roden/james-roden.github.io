@@ -1,10 +1,13 @@
 $(document).ready(function(){
   $('.name').animate({left: 0}, 2000);
+
   $('.skills').animate({left: 0}, 2000);
+
   $('.scroll-button').click(function(){
     $('html, body').animate({
       scrollTop: $('.about').offset().top}, 1000);
     })
+    
   $(".nav-about").click(function() {
     $('html,body').animate({
       scrollTop: $(".about").offset().top}, 'slow');

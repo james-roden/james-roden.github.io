@@ -1,6 +1,9 @@
+// variables
 var numberOfSquares = 6;
 var colours = [];
 var pickedColour;
+
+// document selectors
 var squares = document.querySelectorAll(".square");
 var colourDisplay = document.getElementById("colourDisplay");
 var messageDisplay = document.querySelector("#message");
