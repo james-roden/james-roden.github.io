@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/3f44110e4c.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu:300|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu:300|Playfair+Display">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
 </head>
 
 <body>
@@ -82,12 +84,6 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-4"><div class="mypic"></div></div>
-          <div class="col-sm-4"><div class="mypic"></div></div>
-          <div class="col-sm-4"><div class="mypic"></div></div>
-        </div>
-
         <hr>
 
       </section>
@@ -101,7 +97,7 @@
           <div class="col-sm-4"><div class="img" id="code-pic"></div></div>
           <div class="col-sm-8"><h2>Coding projects...</h2>
             <div class="text">... that I've worked on; including the testing Google-Foobar recruitment
-              challenges and simple browser based apps.
+              challenges and simple browser based apps. All source code is available on my GitHub.
             </div>
           </div>
         </div>
@@ -109,28 +105,30 @@
         <div class="row">
           <div class="col-sm-3">
             <div class="content-card">
-              <h3><a href="#">Google-Foobar</a></h3>
+              <h3><a href="https://github.com/GISJMR/Google_Foobar">Google-Foobar</a></h3>
               <div class="content-img"></div>
               <div class="content-desc">My answers to the Google-Foobar challenge</div>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="content-card">
-              <h3><a href="https://gisjmr.github.io/colourgame.html">RGB Guessing Game</a></h3>
+              <h3><a href="projects/patatap_clone.html">Patatap Clone</a></h3>
+              <div class="content-img patatap_clone"></div>
+              <div class="content-desc">A patatap clone. Tap the keys to make a tune!</div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="content-card">
+              <h3><a href="projects/colourgame.html">RGB Guessing Game</a></h3>
               <div class="content-img"></div>
               <div class="content-desc">Guess what colour the RGB code is!</div>
             </div>
-          </div><div class="col-sm-3">
+          </div>
+          <div class="col-sm-3">
             <div class="content-card">
-              <h3><a href="https://gisjmr.github.io/todo_list.html">To Do List</a></h3>
+              <h3><a href="projects/todo_list.html">To Do List</a></h3>
               <div class="content-img"></div>
               <div class="content-desc">A simple browser todo list</div>
-            </div>
-          </div><div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="#">EMPTY</a></h3>
-              <div class="content-img"></div>
-              <div class="content-desc">Descirption</div>
             </div>
           </div>
         </div>
@@ -145,7 +143,7 @@
         <h1>ArcGIS</h1>
 
         <div class="row">
-          <div class="col-sm-4"><div class="img"></div></div>
+          <div class="col-sm-4"><div class="img" id="arcgis-pic"></div></div>
           <div class="col-sm-8"><h2>Tools and Scripts</h2>
             <div class="text">A selection of ArcGIS Python tools and scripts for geoprocessing and spatial analysis
               with a focus on oil and gas exploration.
@@ -192,14 +190,6 @@
       <section class="worksection" id="cartography">
 
         <h1>Cartography</h1>
-
-        <div class="row">
-          <div class="col-sm-4"><div class="img" id="carto"></div></div>
-          <div class="col-sm-8"><h2>Selection of maps</h2>
-            <div class="text">"Obviously the blue part here is land" - Buster Bluth
-            </div>
-          </div>
-        </div>
 
         <div class="row">
           <div class="col-sm-12">
@@ -264,9 +254,11 @@
 
 
 
-
     </div> <!--End of container -->
     </section> <!--End of my-content -->
+    <section id="myfooter">
+
+    </section>
 
 </body>
 </html>

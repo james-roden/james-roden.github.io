@@ -233,13 +233,13 @@ h1{
   background-size: contain;
 }
 
-#code{
-
-}
-
 #code-pic{
   background: 50% 50% url(../imgs/foobar.png);
   background-size: contain;
+}
+
+#arcgis-pic{
+  background: url(../imgs/arcgis.png);
 }
 
 #map-window{
@@ -247,12 +247,6 @@ h1{
   padding: 0;
   border-top: solid 3px rgb(10, 117, 145);
 }
-
-#carto{
-  background: 50% 50% url(../imgs/carto.jpg);
-  background-size: auto;
-}
-
 
 .worksection{
   margin-top: 90px;
@@ -264,6 +258,7 @@ h1{
   background: #eee;
   max-width: 100%;
   max-height: 100%;
+  background-repeat: no-repeat;
 }
 
 .row{
@@ -280,13 +275,18 @@ h1{
 .content-card{
   background: #eee;
   border-top: solid 3px rgb(10, 117, 145);
-  height: 200px;
+  height: 150px;
   padding: 0 10px;
+  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
 
-.content-img{
+.content-card:hover{
+  background: #e8e8e8;
+}
+
+/*.content-img{
   background: blue;
   height: 0%;
   margin: 0 -10px;
@@ -296,16 +296,16 @@ h1{
   z-index: 1;
   transition: height 0.5s;
   background: 50% 50% url(../imgs/pock.jpg);
-  background-size:auto;
+  background-size: auto;
 }
 
 .content-card:hover .content-img{
   height: 40%;
-}
+}*/
 
 .content-desc{
   height: 70%;
-  margin: 0 -10px;
+  margin: -10px;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -317,4 +317,10 @@ h1{
   word-wrap: break-word;
   padding-right: 30px;
   overflow: auto;
+}
+
+#myfooter{
+  height: 200px;
+  background: #eee;
+  width: 100%;
 }
