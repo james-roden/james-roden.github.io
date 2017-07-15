@@ -234,7 +234,7 @@ h1{
 }
 
 #code-pic{
-  background: 50% 50% url(../imgs/foobar.png);
+  background: 50% 50% url(../imgs/foobar.PNG);
   background-size: contain;
 }
 
