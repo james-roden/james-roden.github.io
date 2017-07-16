@@ -135,6 +135,10 @@ body{
   color: white;
 }
 
+.scroll-button .fa:hover{
+    color: rgb(10, 117, 145);
+}
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -177,11 +181,11 @@ body{
   text-align: center;
 }
 
-.fa{
+li .fa{
   font-size: 1.3em;
 }
 
-.fa:hover{
+li .fa:hover{
   color: rgb(10, 117, 145);
 }
 
@@ -197,11 +201,6 @@ body{
 .navbar-fixed-top{
   border: none;
 }
-
-.fa:hover{
-  color: rgb(10, 117, 145);
-}
-
 
 /*---------------------------------------------------------------------------*/
 
@@ -223,12 +222,25 @@ h1{
   color: #4c4c4c;
 }
 
+a{
+  color: rgb(10, 117, 145);
+}
+
+a i:hover{
+  color: rgb(10, 117, 145)
+}
+
+
+.fa-code-fork{
+  color: #4c4c4c;
+}
+
 #aboutme{
   margin-top: 100px;
   position: relative;
 }
 
-#me-mountain{
+#aboutme-pic{
   background: 50% 50% url(../imgs/king.jpg);
   background-size: contain;
 }
@@ -248,6 +260,41 @@ h1{
   border-top: solid 3px rgb(10, 117, 145);
 }
 
+.aboutme-info{
+  height: 100%;
+  padding: 20px;
+}
+
+.aboutme-info li{
+  font-size: 0.8em;
+}
+
+.aboutme-info h3{
+  text-align: center;
+}
+
+.aboutme-info .fa{
+  font-size: 0.75em;
+}
+
+
+.cv{
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+}
+
+#cv-icon{
+  color: #4c4c4c;
+  font-size: 0.75em;
+}
+
+#cv-icon:hover{
+  color: rgb(10, 117, 145);
+}
+
+
+
 .worksection{
   margin-top: 90px;
 }
@@ -266,12 +313,6 @@ h1{
   overflow: auto;
 }
 
-.mypic{
-  background: #eee;
-  height: 250px;
-  width: 100%;
-}
-
 .content-card{
   background: #eee;
   border-top: solid 3px rgb(10, 117, 145);
@@ -286,23 +327,6 @@ h1{
   background: #e8e8e8;
 }
 
-/*.content-img{
-  background: blue;
-  height: 0%;
-  margin: 0 -10px;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  transition: height 0.5s;
-  background: 50% 50% url(../imgs/pock.jpg);
-  background-size: auto;
-}
-
-.content-card:hover .content-img{
-  height: 40%;
-}*/
-
 .content-desc{
   height: 70%;
   margin: -10px;
@@ -310,6 +334,13 @@ h1{
   bottom: 0;
   width: 100%;
   padding: 0 10px 0px;
+}
+
+.content-footer{
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 10 10;
+  width: 100%;
 }
 
 .text{
@@ -320,7 +351,8 @@ h1{
 }
 
 #myfooter{
-  height: 200px;
   background: #eee;
   width: 100%;
+  padding: 20px;
+  font-size: 14px;
 }
