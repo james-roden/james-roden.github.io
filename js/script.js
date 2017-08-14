@@ -8,15 +8,12 @@ $(document).ready(function(){
       scrollTop: $('#aboutme').offset().top - 100}, 1000);
     })
 
-  window.addEventListener("scroll", function() {
-    var windowHeight = $(window).height() - 50;
-    if (window.scrollY > windowHeight) {
-      $('.navbar').fadeIn();
-    }
-    else {
-      //$('.navbar').fadeOut();
-    }
-  });
+  // window.addEventListener("scroll", function() {
+  //   var windowHeight = $(window).height() - 50;
+  //   if (window.scrollY > windowHeight) {
+  //     $('.navbar').fadeIn();
+  //   }
+  // });
 
   $(".nav-about").click(function() {
     $('html, body').animate({
@@ -42,8 +39,7 @@ $(document).ready(function(){
 
   $(".nav-cartography").click(function() {
     $('html, body').animate({
-      scrollTop: $("#cartography").offset().top - 100}, 1000);
-      // TweenMax.from("#cartography .content-card", 0.5, {y:-1000, opacity:0, delay:0.2});
+      scrollTop: $("#cartography").offset().top - 60}, 1000);
   });
 
 });

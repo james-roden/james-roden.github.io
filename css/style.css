@@ -167,7 +167,7 @@ body{
   background-image: linear-gradient(to bottom, black 50%, rgb(10, 117, 145) 50%);
   -webkit-transition: background-position 0.5s;
   -moz-transition: background-position 0.5s;
-  transition: background-position 0.5s;
+  transition: background-position 0.5s ease-out;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover{
@@ -195,7 +195,6 @@ li .fa:hover{
 
 .navbar-inverse{
   background: black;
-  display: none;
 }
 
 .navbar-fixed-top{
