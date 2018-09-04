@@ -5,14 +5,10 @@
     <title>James M Roden</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/3f44110e4c.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu:300|Playfair+Display">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js"></script>
 
 </head>
 
@@ -22,7 +18,12 @@
   <section class="page1">
     <div class="intro">
       <div class="name">James Matthew Roden</div>
-      <div class="skills">GIS • Remote Sensing • Code • Web</div>
+      <div class="skills">GIS • Python • Data</div>
+      <div class="social">
+        <a href="https://github.com/james-roden/"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/james-matthew-roden"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-medium"></i></a>
+      </div>
     </div>
 
     <div class="page1-slideshow">
@@ -34,277 +35,9 @@
       <span id="img6"></span>
     </div>
 
-    <div id="scroll-footer">
-      <div class="scroll-button"><i class="fa fa-angle-double-down"></i></div>
-    </div>
+
   </section>
 
-  <section id="my-content">
-    <div class="container">
-      <!-- Navbar from Bootstrap-->
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-left">
-              <li><a href="javascript:;"class="nav-about">About</a></li>
-              <li><a href="javascript:;"class="nav-arcgis">ArcGIS</a></li>
-              <li><a href="javascript:;"class="nav-code">Code</a></li>
-              <!-- <li><a href="javascript:;"class="nav-cartography">Cartography</a></li>
-              <li><a href="javascript:;"class="nav-webgis">WebGIS</a></li> -->
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="https://github.com/GISJMR/"><i class="fa fa-github nav-li"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/james-matthew-roden-9bb99041/"><i class="fa fa-linkedin nav-li"></i></a></li>
-              <li><a href="https://stackoverflow.com/users/story/6779261"><i class="fa fa-stack-overflow  nav-li" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- ABOUT ME  -->
-      <section id="aboutme">
-
-        <h1>About</h1>
-
-        <div class="row">
-          <div class="col-sm-4"><div class="img" id="aboutme-pic"></div></div>
-          <div class="col-sm-8"><h2>Hello</h2>
-            <div class="text">I'm James, a GIS Specialist and developer
-              originally from south Wales and now based in London. I have been working in GIS and
-              remote sensing for 9+ years and since 2016 have expanded my horizons to the
-              world of developing. This is my personal portfolio and testing playground. Please feel
-              free to get in touch through LinkedIn (navbar) or email - gisjmr@gmail.com. <br>Diolch // Thanks.
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="aboutme-info">
-              <h3>Experience <i class="fa fa-cog" aria-hidden="true"></i></h3>
-              <ul>
-                <li>Geoscience Technician, ExxonMobil (2012-)</li>
-                <li>GIS Technician, Dwr Cymru (2011-2012)</li>
-                <li>GIS Digitiser, WWU (2008-2011)</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="aboutme-info">
-              <h3>Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
-              <ul>
-                <li>Computer Science, OOS (2016-)</li>
-                <li>GIS MSc, Uni. of Wales, Glamorgan (2008)</li>
-                <li>Geography BSc, Uni. of Wales, Swansea (2007)</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="aboutme-info">
-              <h3>Skills <i class="fa fa-code" aria-hidden="true"></i></h3>
-              <ul>
-                <li>ArcGIS, QGIS, ENVI</li>
-                <li>Python, JavaScript, CSS, HTML</li>
-                <li>Remote Sensing, GIS, Front-end Dev. </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-      </section>
-
-      <!-- CODE  -->
-      <section class="worksection" id="arcgis">
-
-        <h1>ArcGIS</h1>
-
-        <div class="row">
-          <div class="col-sm-4"><div class="img" id="arcgis-pic"></div></div>
-          <div class="col-sm-8"><h2>Tools and Scripts</h2>
-            <div class="text">A selection of ArcGIS Python tools and scripts for geoprocessing and spatial analysis
-              with a focus on oil and gas exploration.
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="https://github.com/GISJMR/ArcGIS-GeoDepressions-Tool">GeoDepressions</a></h3>
-              <div class="content-img"></div>
-              <div class="content-desc">Detect circular depressions in a depth raster</div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="https://github.com/GISJMR/ArcGIS-Swath-Profile-Tool">Swath Profile</a></h3>
-              <div class="content-img"></div>
-              <div class="content-desc">Creates topographic swath profiles</div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="https://github.com/GISJMR/ArcGIS-Create-Graticule-Tool">Create Graticule</a></h3>
-              <div class="content-img"></div>
-              <div class="content-desc">Creates graticule for map extent at desired interval.</div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="https://github.com/GISJMR/ArcGIS-Split-Feature-Tool">Split Features</a></h3>
-              <div class="content-img"></div>
-              <div class="content-desc">Split a polygon set into indiviual polygon files</div>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-      </section>
-
-      <!-- CODE  -->
-      <section class="worksection" id="code">
-
-        <h1>Code</h1>
-
-        <div class="row">
-          <div class="col-sm-4"><div class="img" id="code-pic"></div></div>
-          <div class="col-sm-8"><h2>Projects...</h2>
-            <div class="text">... that I've worked on; including the testing Google-Foobar recruitment
-              challenges and simple browser based apps. All source code is available on my GitHub.
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="https://github.com/GISJMR/Google_Foobar">Google-Foobar</a></h3>
-              <div class="content-desc">My answers to the Google-Foobar challenge</div>
-              <div class="content-footer">
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="projects/patatap_clone.html">Patatap Clone</a></h3>
-              <div class="content-img patatap_clone"></div>
-              <div class="content-desc">A patatap clone. Tap the keys to make a tune!</div>
-              <div class="content-footer">
-                <!-- <a href="https://github.com/GISJMR/Patatap_Clone"><i class="fa fa-code-fork" aria-hidden="true"></i></a> -->
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="projects/colourgame.html">RGB Guessing Game</a></h3>
-              <div class="content-desc">Guess what colour the RGB code is!</div>
-              <div class="content-footer">
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="content-card">
-              <h3><a href="projects/todo_list.html">To Do List</a></h3>
-              <div class="content-desc">A simple browser todo list</div>
-              <div class="content-footer">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <hr>
-
-      </section>
-
-      <!-- cartography -->
-      <!-- <section class="worksection" id="cartography">
-
-        <h1>Cartography</h1>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="content-card" id="map-window"> -->
-
-              <!-- Bootstrap Carousel-->
-              <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false"> -->
-
-                <!-- Indicators -->
-                <!-- <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol> -->
-
-                <!-- Wrapper for slides -->
-                <!-- <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="imgs/nasa1.jpg" alt="Los Angeles">
-                    <div class="carousel-caption">
-                      <h3>New York</h3>
-                      <p>We love the Big Apple!</p>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <img src="imgs/nasa2.jpg" alt="Chicago">
-                    <div class="carousel-caption">
-                      <h3>New York</h3>
-                      <p>We love the Big Apple!</p>
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <img src="imgs/nasa3.jpg" alt="New York">
-                    <div class="carousel-caption">
-                      <h3>New York</h3>
-                      <p>We love the Big Apple!</p>
-                    </div>
-                  </div>
-                </div> -->
-
-                <!-- Left and right controls -->
-                <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-
-            </div> -->
-          <!-- </div>
-        </div>
-
-        <hr>
-
-      </section> -->
-      
-
-
-
-    </div> <!--End of container -->
-    </section> <!--End of my-content -->
-    <section id="myfooter">
-      Website designed and created by James M Roden © <br>
-      Unsplash Credits:
-      <a style="background-color:none;color:#4c4c4c;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:8px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@andrewtneel?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Andrew Neel"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:#4c4c4c;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Andrew Neel</span></a>
-      <a style="background-color:none;color:#4c4c4c;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:8px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@chuttersnap?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from chuttersnap"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:#4c4c4c;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">chuttersnap</span></a>
-      <a style="background-color:none;color:#4c4c4c;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:8px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@nasa?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from NASA"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:#4c4c4c;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">NASA</span></a>
-      <a style="background-color:none;color:#4c4c4c;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:8px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@drewcoffman?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Drew Coffman"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:#4c4c4c;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Drew Coffman</span></a>
-      <a style="background-color:none;color:#4c4c4c;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:8px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="http://unsplash.com/@rrruthie?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Ruthie"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:#4c4c4c;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Ruthie</span></a>
-    </section>
 
 </body>
 </html>

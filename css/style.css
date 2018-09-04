@@ -22,6 +22,9 @@ body{
   font-size: 1rem;
   position: relative;
   color: #4c4c4c;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 /* Splash page slideshow */
@@ -111,247 +114,22 @@ body{
   text-shadow: 2px 2px black;
 }
 
-/* Scroll down button with animation */
-
-#scroll-footer{
-  position: absolute;
-  bottom: 80px;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-  height: 60px;
-  width: 60px;
-}
-
-.scroll-button{
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-  text-align: center;
-}
-
-.scroll-button .fa{
-  font-size: 3rem;
-  color: white;
-}
-
-.scroll-button .fa:hover{
-    color: rgb(10, 117, 145);
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-20px);
-  }
-  60% {
-    transform: translateY(-10px);
-  }
-}
-
-/*---------------------------------------------------------------------------*/
-
-/*---------------------------------------------------------------------------*/
-/* Bootstrap Navbar */
-/*---------------------------------------------------------------------------*/
-
-.navbar-left>li>a{
-  padding-left: 10px;
-  min-width: 120px;
-  width: auto;
-  background-size: 100% 200%;
-  overflow: hidden;
-  height: 51px;
-  background-image: linear-gradient(to bottom, black 50%, rgb(10, 117, 145) 50%);
-  -webkit-transition: background-position 0.5s;
-  -moz-transition: background-position 0.5s;
-  transition: background-position 0.5s ease-out;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover{
-  background-position: 0 -100%;
-}
-
-.navbar-inverse .navbar-nav>li>a{
-  font-size: 16px;
-  color: white;
-  font-family: Slim Joe;
-  text-align: center;
-}
-
-li .fa{
-  font-size: 1.3em;
-}
-
-li .fa:hover{
-  color: rgb(10, 117, 145);
-}
-
-.navbar-brand{
-  padding-right: 50px;
-}
-
-.navbar-inverse{
-  background: black;
-}
-
-.navbar-fixed-top{
-  border: none;
-}
-
-/*---------------------------------------------------------------------------*/
-
-#my-content{
-  background-image: url(../imgs/cubes.png);
-  background-repeat: repeat;
+.social{
+  padding-top: 10px;
+  position: relative;
   width: 100%;
+  left: 200%;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
-hr {
-  margin-top: 50px;
-  border : 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(76, 76, 76, 0), rgba(0, 0, 0, 0.75), rgba(76, 76, 76, 0));
-}
-
-h1{
-  font-size: 2.41rem;
-  color: #4c4c4c;
-}
 
 a{
-  color: rgb(10, 117, 145);
+  color: rgb(255, 255, 255);
+  padding: 0 5px;
 }
 
 a i:hover{
   color: rgb(10, 117, 145)
-}
-
-
-.fa-code-fork{
-  color: #4c4c4c;
-}
-
-#aboutme{
-  margin-top: 100px;
-  position: relative;
-}
-
-#aboutme-pic{
-  background: 50% 50% url(../imgs/king.jpg);
-  background-size: contain;
-}
-
-#code-pic{
-  background: 50% 50% url(../imgs/foobar.PNG);
-  background-size: contain;
-}
-
-#arcgis-pic{
-  background: url(../imgs/arcgis.png);
-}
-
-#map-window{
-  height: 100%;
-  padding: 0;
-  border-top: solid 3px rgb(10, 117, 145);
-}
-
-.aboutme-info{
-  height: 100%;
-  padding: 20px;
-}
-
-.aboutme-info li{
-  font-size: 0.8em;
-}
-
-.aboutme-info h3{
-  text-align: center;
-}
-
-.aboutme-info .fa{
-  font-size: 0.75em;
-}
-
-
-.cv{
-  text-align: center;
-  width: 100%;
-  font-size: 24px;
-}
-
-#cv-icon{
-  color: #4c4c4c;
-  font-size: 0.75em;
-}
-
-#cv-icon:hover{
-  color: rgb(10, 117, 145);
-}
-
-
-
-.worksection{
-  margin-top: 90px;
-}
-
-.img{
-  width: 100%;
-  height: 200px;
-  background: #eee;
-  max-width: 100%;
-  max-height: 100%;
-  background-repeat: no-repeat;
-}
-
-.row{
-  margin-bottom: 20px;
-  overflow: auto;
-}
-
-.content-card{
-  background: #eee;
-  border-top: solid 3px rgb(10, 117, 145);
-  height: 150px;
-  padding: 0 10px;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-
-.content-card:hover{
-  background: #e8e8e8;
-}
-
-.content-desc{
-  height: 70%;
-  margin: -10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 0 10px 0px;
-}
-
-.content-footer{
-  position: absolute;
-  bottom: 0;
-  padding: 0 0 10 10;
-  width: 100%;
-}
-
-.text{
-  width: 100%;
-  word-wrap: break-word;
-  padding-right: 30px;
-  overflow: auto;
-}
-
-#myfooter{
-  background: #eee;
-  width: 100%;
-  padding: 20px;
-  font-size: 14px;
 }
